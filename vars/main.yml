@@ -15,4 +15,4 @@ users:
   - 'pi'
 authorized_keys:
   - user:               'pi'
-    keyfile:            "{{ role_path }}/../aaron-phone/files/ssh_keys/id_rsa.pub"
+    keyfile:            "{{ role_path }}/../../inventory/hosts/aaron-phone/users/aaron/files/ssh_keys/id_rsa.pub"
